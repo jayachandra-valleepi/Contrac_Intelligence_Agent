@@ -12,7 +12,7 @@ AI-powered result summarization
 Anomaly detection on query results
 
 
-🏗️ Architecture
+### 🏗️ Architecture
 User Query
     ↓
 Intent Detection (ML / NLP)
@@ -39,8 +39,9 @@ Databases:
 Databricks
 Microsoft SQL Server
 Real-Time: WebSockets
-📌 Example
 
+
+### 📌 Example
 
 ### Input:
 
@@ -53,7 +54,7 @@ Show top 5 customers by revenue last month
 3. Customer C – ₹4.5L
 
 
-## 🧠 ML Components
+### 🧠 ML Components
 Intent Detection Model
 Extracts structured meaning from user queries
 Routing Model
@@ -61,27 +62,27 @@ Classifies query → Databricks / SQL Server / Both
 Anomaly Detection Model
 Identifies unusual patterns in results
 
-## 🧩 Key Concepts
+### 🧩 Key Concepts
 
 Multi-Agent Architecture
 Hybrid AI (ML + LLM)
 Cross-Database Query Execution
 Real-Time Data Processing
 
-## ⚠️ Challenges
+### ⚠️ Challenges
 
 SQL dialect differences (Spark SQL vs T-SQL)
 Schema mapping across databases
 Query latency optimization
 Data consistency and validation
 
-## 📈 Future Improvements
+### 📈 Future Improvements
 Auto schema discovery
 Query cost estimation
 Query caching
 Dashboard visualization
 
-## ▶️ How to Run
+### ▶️ How to Run
 
 git clone https://github.com/your-username/ai-ml-sql-agent-databricks-sqlserver.git
 
@@ -91,7 +92,8 @@ pip install -r requirements.txt
 
 uvicorn app.main:app --reload
 
-## 📂 Project Structure
+### 📂 Project Structure
+
 app/
  ├── agents/
  ├── ml_models/
@@ -102,6 +104,8 @@ app/
 notebooks/
 requirements.txt
 README.md
-🙌 Author
+
+
+### 🙌 Author
 
 Jayachandra
