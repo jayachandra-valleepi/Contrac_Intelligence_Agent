@@ -1,0 +1,19 @@
+fastapi==0.110.0
+uvicorn==0.27.1
+
+langchain==0.2.14
+langchain-community== 0.4.1
+langchain-openai==0.1.7
+openai==1.40.0
+
+faiss-cpu==1.7.4
+pandas==2.2.2
+numpy==1.26.4
+
+
+python-dotenv==1.0.1
+
+databricks-sql-connector==3.5.0
+
+scikit-learn==1.5.1
+joblib==1.4.2
